@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item h1
+{
+    margin-top:-400px;
+}
+.carousel-item button
+{
+    margin:15px;
+}
+#hovers:hover
+{
+    color: blueviolet;
+}
+#h800
+{
+    height: 800px;
+}
+.img-box:hover
+{
+border: 2px solid aquamarine;
+}
+.transport-box:hover
+{
+border: 2px solid;
+border-radius:80px;
+background-color: rgb(17, 101, 73)
+}
+
+.transport-section{background-image: url('/tourism-bootstrap/css-images/MWFnx.png'); background-size:cover; background-repeat: no-repeat;}
+.footer-section{background-image: url('/tourism-bootstrap/css-images/background.png');background-size:cover;background-repeat: no-repeat;}
+#lst:hover
+{
+    color: aquamarine;
+}
+
+
+
+
+/*media quereis*/
+
+
+
+@media(max-width:768px)
+{
+    #h800
+    {
+        height: 500px;
+    }
+    .home-slider h1,p,button
+    {
+        margin-top: -260px;
+    }
+    #homelink
+    {
+        margin-left: -48px;
+    }
+
+    .img-box img
+    {
+        height: 200px;
+        width: 300px;
+    }
+
+    .transport-section .transport-box i
+    {
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    
+}
+
+@media(max-width:576px)
+{
+    #h800
+    {
+        height: 400px;
+    }
+    #btn-zero
+    {
+        font-size:x-small;
+    }
+    .home-slider h1,p,button
+    {
+        margin-top: -220px;
+        font-size: medium;
+    }
+     .image-row .img-box img
+    {
+        height: 300px;
+        width: 450px;
+        margin-left: 35px;
+    }
+    .transport-section .transport-box i
+    {
+        padding-top: 30px;
+        margin-left: 150px;
+    } 
+    .transport-section .transport-box p
+    {
+        margin-left: -20px;
+    } 
+    .lorem .img-box{
+        height: 250px;
+        width: 230px;
+    }
+}
+@media(max-width:430px)
+{
+    .image-row .img-box img
+    {
+        height: 200px;
+        width: 270px;
+        margin-left: 65px;
+    }
+    .transport-section .transport-box i {
+        margin-left: 105px;
+    }
+    .lorem .img-box{
+        margin-top: -35px;
+        margin-left: 80px;
+        height:300px;
+        width: 250px;
+    }
+}
+
+@media(max-width:414px)
+{
+    #h800
+    {
+        height:350px;
+    }
+    .image-row .img-box img
+    {
+        height: 200px;
+        width: 270px;
+        margin-left: 55px;
+    }
+    .transport-section .transport-box i {
+        margin-left: 95px;
+    }
+    .transport-section .transport-box p
+    {
+        margin-left: -7px;
+    }
+    .lorem .img-box{
+        margin-left: 90px;
+        height:220px;
+        width: 200px;
+    }
+    #ltnws
+    {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:375px)
+{
+    #h800
+    {
+        height: 300px;
+    }
+    .home-slider h1,p,button
+    {
+        margin-top: -180px;
+        font-size: medium;
+    }
+    .image-row .img-box img
+    {
+        height: 200px;
+        width: 270px;
+        margin-left: 45px;
+    }
+    .transport-section .transport-box i {
+        margin-left: 75px;
+    }
+    .lorem .img-box{
+        margin-top: -35px;
+        margin-left: 80px;
+        height:220px;
+        width: 200px;
+    }
+    #ltnws
+    {
+        margin-top: 30px;
+    }
+    #headimg
+    {
+        height: 10px;
+        width: 150px;
+    }
+}
+
